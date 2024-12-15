@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chai-chat"
+version = "0.1.0"
+description = "chai-chat inc."
+authors = ["ivan Chizhov"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+package-mode = false
