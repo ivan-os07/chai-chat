@@ -40,7 +40,7 @@ can_kb = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="Гороскоп❌",
+                text="Гороскоп✅",
                 callback_data=MainCb.create(
                     first_action="page-1", last_action="horoscope"
                 ),

@@ -14,6 +14,9 @@ aiogram = "^3.16.0"
 python-dotenv = "^1.0.1"
 authx = "^1.4.1"
 requests = "^2.32.3"
+aiosqlite = "^0.20.0"
+sqlalchemy = "^2.0.36"
+mistralai = "^1.2.6"
 
 
 [build-system]
